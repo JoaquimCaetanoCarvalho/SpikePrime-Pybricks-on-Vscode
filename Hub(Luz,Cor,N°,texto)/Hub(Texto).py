@@ -1,5 +1,5 @@
 # importo os modulos do pybricks para poder utiliar o hub e a função de espera
-from pybricks import PrimeHub
+from pybricks.hubs import PrimeHub
 from pybricks.tools import wait
 
 #inicializo o hub para poder usar a função de texto
