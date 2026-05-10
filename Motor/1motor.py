@@ -6,11 +6,14 @@ from pybricks.tools import wait
 
 #Inicializo o hub e o motor que será utilizado para a rotação
 hub = PrimeHub()
-motor1 = Motor(Port.E)
+motor1 = Motor(Port.F)
 
 # Crio um loop infinito para que o motor fique rodando continuamente, e alternando o sentido
 while True:
     motor1.run(500)
     wait(1000)
     motor1.run(-500)
+    wait(1000)
+    # faz o motor parar por um tempo, para depois recomeçar o ciclo
+    motor1.stop()
     wait(1000)
