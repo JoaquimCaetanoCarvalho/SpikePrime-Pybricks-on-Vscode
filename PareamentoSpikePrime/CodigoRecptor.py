@@ -9,7 +9,7 @@ motoresquerdo = Motor(Port.E)
 motordireito = Motor(Port.F)
 
 while True:
-    data = hub.ble.observe(1)
+    data = hub.ble.observe(0)
     if data == 1:
         motoresquerdo.run(500)
         motordireito.run(-500)
