@@ -5,6 +5,8 @@ from pybricks.tools import wait
 
 hub = PrimeHub(observe_channels=[1])
 
+hub.light.on(Color.GREEN)
+
 motoresquerdo = Motor(Port.E)
 motordireito = Motor(Port.F)
 
