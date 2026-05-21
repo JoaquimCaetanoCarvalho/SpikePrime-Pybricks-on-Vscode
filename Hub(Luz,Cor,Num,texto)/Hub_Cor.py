@@ -39,8 +39,6 @@ while True:
         print("cor preta detectada!")
     elif cor == Color.WHITE:
         print("cor branca detectada!")
-    elif cor == Color.YELLOW:
-        print("cor amarela detectada!")
     else:
         print("cor desconhecida detectada!")
     # utilizo a função de espera para que o sensor nao bugue ao detectar!
