@@ -19,6 +19,6 @@
     <img width="1280" height="219" alt="image" src="https://github.com/user-attachments/assets/17188732-331a-4ff0-b75c-cd9839d3c984" />
   #  Crie um arquivo.py e abra e terminal e insira:
       pip install pybricks pybricksdev
-   - (obs: lembre-se a pasta do python e a pasta dos scripts instalado em sua máquina deve estar no PATH, caso não esteja o PIP, nem o pybricks funcionará!)
+   - (obs: lembre-se a pasta do python e a pasta dos scripts instalado em sua máquina deve estar no **PATH**, caso não esteja o PIP, nem o pybricks funcionará!)
    - agora siga as instruções presentes neste repostório e a documentação oficial do Pybricks!
    - Documentação: - https://docs.pybricks.com/en/latest/ -
